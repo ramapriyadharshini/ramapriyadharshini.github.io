@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>card material</title>
+</head>
+<body>
+    <div class = "row">
+        <div class ="col s12 m6">
+            <div class = "card cyan">
+                <div class="card-content white-text">
+                            <span class = "card-title"> card title</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sit porro nesciunt possimus, doloribus saepe esse 
+                        voluptates earum quos ipsam facilis, ipsa reprehenderit modi debitis voluptate labore, corrupti placeat? Minima!</p>
+               
+                </div>
+                <div class = " card-action">
+                    <a href="#">link</a>
+                    
+                </div>
+
+            </div>
+        </div>
+"
+    </div>
+    
+    <div id="para">
+<button onclick="paragraph()">click me</button>
+    </div>
+</body>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+<script>
+    function paragraph(){
+        console.log("hello")
+    var p = document.getElementById('para')
+    var pp = document.createElement('p')
+    pp.setAttribute('class','pink darken-1')
+    pp.innerText = "hello everyone"
+    p.append(pp)
+    }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
+

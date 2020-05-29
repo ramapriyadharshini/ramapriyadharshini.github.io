@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>material form</title>
+</head>
+
+
+
+<body>
+    <button onclick="offesetInsert()">Insert offset</button>
+    <button  class = "button"onclick="dyna()">input:text</button>
+    <button  class = "button"onclick = "demo1()">email</button>
+    <button  class = "button"onclick = "demo2()">password</button>
+    <button  class = "button"onclick = "demo3()">phonenumber</button>
+    <button  class ="button"class="waves-effect waves-light btn"onclick = "demo4()">DOB</button>
+    <button  class = "button"onclick = "demo5()">hobbies</button>
+    <button  class = "button"onclick = "sub()">submit1</button>
+    
+     <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>    
+    <div  id="dynamic"></div> </div>
+    
+    <div id="dynamic1"></div>
+    
+    <div id="dynamic2"></div>
+    
+    <div id="dynamic3"></div>
+    
+    <div id="dynamic4"></div>
+    
+    <div id="dynamic5"></div>
+   
+    <div id="submit1"></div>
+
+
+      
+
+
+
+
+
+    
+
+    
+
+    
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="material form.js">
+  </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+  });
+</script>
+    </html>

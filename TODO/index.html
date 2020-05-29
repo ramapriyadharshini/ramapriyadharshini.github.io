@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Welcome to TODO 2020</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">TODO App</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a href="sass.html">Home</a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="center-align">TODO App</h1>
+        <div class="container">
+            <div class="input-field">
+                <input type="text" name="todo_input" id="todoinput_id">
+                <label for="todoinput_id">Todo Entry</label>
+            </div>
+            <button class="waves-effect waves-light btn" id="add_btn">Add to TODO</button>
+            <button class="waves-effect waves-light btn red" id="remove_btn">Remove from TODO</button>
+        </div>
+        <div class="container" id="todo_items">
+
+        </div>
+    </main>
+    <footer></footer>
+</body>
+<script src="index.js"></script>
+</html>
