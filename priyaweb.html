@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "https://ajax.googleapics.com/ajax/lips/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapics.com/icon?family=material+icons"rel="stylesheet">
+    <title><b> I AM RAMAPRIYA</b></title>
+</head>
+<style>
+  #car{
+    position:absolute; 
+    background-color: #222;
+    width: auto;
+    height: auto;
+    color:#fff;
+    padding: 15px;
+    top:50%;
+    left:50%;
+    font-size: 3vw;
+    transform: translate(-50%,-150%);
+    font-family: cursive;
+    line-height: 1.8;
+    }
+    .roundedimg{
+      border-radius: 50%;
+      display: block;
+      position:right;
+      
+
+      
+    }
+    .para{
+      text-align: justify;
+    }
+    .cen{
+      text-align: center;
+    }
+    #race{
+      position:absolute; 
+    
+    width: auto;
+    height: auto;
+    color:#fff;
+    padding: 15px;
+    top:50%;
+    left:50%;
+    font-size: 3vw;
+    transform: translate(-50%,-150%);
+    font-family: cursive;
+    line-height: 1.8;
+    }
+    .container{
+      color: #777;
+      text-align: justify;
+    }
+    .skillcontainer{
+      width: 100%;
+      background-color: #ddd;
+      text-align: right;
+      padding: 2px;
+      color: white;
+    }
+    .skill-web{
+      width: 70%;
+      background-color: tomato;
+    }
+    .skill-draw{
+      width:80%;
+      background-color: violet;
+    }
+    .skill.prog{
+      width:30%;
+      background-color: yellowgreen;
+    }
+
+</style>
+<body>
+
+
+  <nav>
+    <div class="nav-wrapper">
+      <!-- <a href="#" class="brand-logo right">Logo</a> -->
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#car">home</a></li>
+        <li><a href="#bike">about</a></li>
+        <li><a href="#race">portfolio</a></li>
+         <li><a href="#audi">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="parallax-container">
+    <div class="parallax"><img src="img.pin.jpg">
+      <div id="car">
+        <div class ="image-intro">Hi, i am Ramapriyadharshini</div>
+      </div>
+    </div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <div id ="bike">
+      <h3 class="cen">aboutme</h3>
+      <img src="pic.jpg" class="roundedimg" width="100px",height="100px">
+      <p class="para"><b> Ramapriyadharshini</b>, studing final year cse . I am  Learning fullstack webdevelopment for 3 weaks i got some knowledge in 
+        webdevelopment .easy to  understand but other language are so ..And i love webdesiging .</p>
+    </div>
+  </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="img.vio.jpg">
+      <div id="race">
+        <div class ="image-intro">portfolio</div>
+        </div>
+  </div>
+  </div>
+  <div class = "card">
+    <div class = "container">
+      <h3>webdesiging</h3>
+      <div class = "skillcontainer">
+        <div class = "skill-web">74%</div>
+      </div>
+      <h5>drawing</h5>
+                <div class = "skil1container">
+                  <div class = "skill-draw" >80% </div>
+                </div>
+      <h5>programming</h5>
+                <div class = "skillcontainer" >
+                  <div class = "skill-prog" >30% </div>
+                </div>
+    </div>
+    </div>
+
+      
+</body>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems);
+  });
+  
+  </script>
+</html>
