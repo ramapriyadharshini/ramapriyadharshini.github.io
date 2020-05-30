@@ -7,12 +7,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapics.com/icon?family=material+icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
     <title><b> I AM RAMAPRIYA</b></title>
 </head>
 <style>
   #car{
     position:absolute; 
-    background-color: #222;
     width: auto;
     height: auto;
     color:#fff;
@@ -67,14 +69,24 @@
       width: 70%;
       background-color: tomato;
     }
-    .skill-draw{
-      width:80%;
+    .skill-prog{
+      width:40%;
       background-color: violet;
     }
-    .skill.prog{
-      width:30%;
-      background-color: yellowgreen;
+    #audi{
+    position:absolute; 
+    width: auto;
+    height: auto;
+    color:#fff;
+    padding: 15px;
+    top:50%;
+    left:50%;
+    font-size: 3vw;
+    transform: translate(-50%,-150%);
+    font-family: cursive;
+    line-height: 1.8;
     }
+    
 
 </style>
 <body>
@@ -103,8 +115,11 @@
       <div id ="bike">
       <h3 class="cen">aboutme</h3>
       <img src="pic.jpg" class="roundedimg" width="100px",height="100px">
-      <p class="para"><b> Ramapriyadharshini</b>, studing final year cse . I am  Learning fullstack webdevelopment for 3 weaks i got some knowledge in 
-        webdevelopment .easy to  understand but other language are so ..And i love webdesiging .</p>
+      <p class="para"> I am Ramapriyadharshini a computer science engineering . I'm currently based fullstack developer.It's a courageous and obliged
+        part of a mixture in HTML,CSS,JQUERY,JS,DB.I have created a webpage that consists of this languages in webdesigin.Completed mini project on exam registration
+        strong programming and anaytical skills.Ability to work both independently and in groups.
+
+      </p>
     </div>
   </div>
   </div>
@@ -121,20 +136,38 @@
       <div class = "skillcontainer">
         <div class = "skill-web">74%</div>
       </div>
-      <h5>drawing</h5>
+      <h5>programming </h5>
                 <div class = "skil1container">
-                  <div class = "skill-draw" >80% </div>
+                  <div class = "skill-prog" >40% </div>
                 </div>
-      <h5>programming</h5>
-                <div class = "skillcontainer" >
-                  <div class = "skill-prog" >30% </div>
-                </div>
+     
     </div>
+   </div>
+   <div class="parallax-container">
+    <div class="parallax"><img src="img.vio.jpg">
+      <div id="audi">
+        <div class ="image-intro">contact</div>
+        </div>
+  </div>
+  </div>
+  <div class = "card">
+    <div class ="container">
+      <div class = "row">flex</div>
     </div>
+  </div>
+        <div class="divide-quarter">
+          <i class ="material-icons">location-arrow</i>
+          <h2>chennai,Tamilnadu</h2>
+        </div>
+
+      </div>
+    </div>
+    
 
       
 </body>
 <script>
+  
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems);
